@@ -26,6 +26,15 @@ public class QueryProcessor {
             }
             return String.valueOf(sum);
         }
+        else if(query.contains("largest")) {
+            String[] params = query.split(" ");
+
+            int[] zahlen = new int[10];
+            int i = 0;
+
+            for(String s: params)
+            }
+            return String.valueOf(sum);
         } else { // TODO extend the programm here
             return "";
         }
